@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #212121;
+  color: white;
+}
+
+.cabeçalho {
+  padding: 30px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.cabeçalho-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  font-size: 30px;
+  margin-left: 40px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+#logo-principal:hover {
+  color: red;
+}
+
+#cabeçalho-item-menu {
+  display: flex;
+  gap: 35px;
+  font-size: 20px;
+  margin-right: 35px;
+  margin-top: 45px;
+}
+
+#cabeçalho-item-menu a {
+  text-decoration: none;
+}
+
+#cabeçalho-item-menu a:hover {
+  color: red;
+}
+
+.container {
+  margin-top: 70px;
+  margin-left: 70px;
+}
+
+#nome-principal {
+  font-family: "Montserrat";
+  font-size: 40px;
+}
+
+#text-principal {
+  margin-top: 40px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.3em;
+}
+
+.btn {
+  margin-top: 30px;
+  padding: 8px;
+  width: 10%;
+  border: 1px solid rgb(228, 222, 222);
+  border-radius: 8px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: rgb(202, 109, 109);
+  transition: 3s;
+}
